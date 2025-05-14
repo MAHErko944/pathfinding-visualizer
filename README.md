@@ -1,7 +1,5 @@
 # Path Finder with Algorithms
 
-![Path Finder Demo](https://via.placeholder.com/800x400.png?text=Path+Finder+Demo) <!-- Placeholder for demo image or GIF -->
-
 A Python-based visual pathfinding application built with Pygame, showcasing various search algorithms like BFS, DFS, Dijkstra, and A*. This project allows users to interactively set start/end points, add obstacles, assign weights, and visualize how each algorithm finds the shortest path in a grid-based environment.
 
 ## Table of Contents
@@ -26,7 +24,6 @@ A Python-based visual pathfinding application built with Pygame, showcasing vari
 ## Demo
 Below is a quick demo of the application in action:
 
-![Demo GIF](https://via.placeholder.com/600x300.png?text=Pathfinding+Animation) <!-- Placeholder for actual demo GIF -->
 
 1. Set a start point (green) and end point (blue).
 2. Add obstacles (red) and weights (orange) as needed.
@@ -100,11 +97,4 @@ Contributions are welcome! To contribute:
 4. Push to your branch (`git push origin feature/your-feature-name`).
 5. Open a pull request with a detailed description of your changes.
 
-Please ensure your code follows PEP 8 style guidelines and includes appropriate comments.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Built with ❤️ by [Your Name](https://github.com/yourusername). Happy pathfinding!
