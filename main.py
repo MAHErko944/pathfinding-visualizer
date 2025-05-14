@@ -6,7 +6,7 @@ import heapq
 import math
 import asyncio
 
-# Constants for screen dimensions
+# Constants for screen dimensions.
 WIDTH, HEIGHT = 1010, 700
 GRID_WIDTH = 750
 CELL_SIZE = 25
