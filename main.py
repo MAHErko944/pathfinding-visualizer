@@ -436,7 +436,7 @@ async def main():
                                 cell_weights[cell] = 1
                             search_initiated = False
 
-                elif event.button == 3 and mouse_x < GRID_WIDTH:  # Right click in grid
+                elif event.button == 3 and mouse_x < GRID_WIDTH:  
                     if cell in obstacles:
                         obstacles.remove(cell)
                     elif cell_weights.get(cell, 1) > 1:
@@ -461,25 +461,20 @@ async def main():
                 if weight > 1 and cell not in obstacles and cell != start_point and cell != finish_point:
                     draw_cell(cell, WEIGHT_COLOR)
 
-            # Draw obstacles on top of weighted cells
             for obstacle in obstacles:
                 draw_cell(obstacle, OBSTACLE_COLOR)
 
-            # Draw start and finish points on top of everything
             if start_point:
                 draw_cell(start_point, START_COLOR)
             if finish_point:
                 draw_cell(finish_point, FINISH_COLOR)
 
-            # Draw weight values
             draw_weights(cell_weights)
 
-            # Draw instructions
             for i, instruction in enumerate(instructions):
                 text = font.render(instruction, True, TEXT_COLOR)
                 screen.blit(text, (GRID_WIDTH + 20, HEIGHT - 150 + i * 25))
 
-            # Display algorithm info if available
             if last_algorithm:
                 display_algorithm_time(last_execution_time, last_algorithm)
 
