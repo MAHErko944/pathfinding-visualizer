@@ -89,12 +89,5 @@ path-finder-algorithms/
 └── .gitignore            # Git ignore file for excluding unnecessary files
 ```
 
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Make your changes and commit them (`git commit -m "Add your feature"`).
-4. Push to your branch (`git push origin feature/your-feature-name`).
-5. Open a pull request with a detailed description of your changes.
 
 
