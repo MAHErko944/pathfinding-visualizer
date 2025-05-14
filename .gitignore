@@ -1,0 +1,17 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# IDE files
+*.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
