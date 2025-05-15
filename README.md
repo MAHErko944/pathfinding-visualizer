@@ -40,8 +40,8 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/path-finder-algorithms.git
-   cd path-finder-algorithms
+   git clone https://github.com/MAHErko944/pathfinding-visualizer
+   cd pathfinding-visualizer
    ```
 
 2. **Set up a virtual environment** (optional but recommended):
